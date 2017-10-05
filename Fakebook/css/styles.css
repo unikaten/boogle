@@ -1,0 +1,47 @@
+body{
+  background-color: pink;
+}
+
+p{
+  color: red;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: serif;
+  padding:10px;
+  font-size:18px;
+}
+
+p1{
+  color: blue;
+  font-family: "sofia"; font-size: 22px;
+  padding: 30px;
+
+
+}
+
+p4{
+  color: black;
+  border: 5px solid powderblue;
+  padding: 10px;
+}
+
+
+.image-circle {
+  border-radius: 6px black dotted;
+  padding: 5px;
+  border-radius: 50%;
+  opacity: 0.7;
+  filter: aplha(opacity=70);
+  margin: 100px;
+}
+
+.image-circle:hover {
+  opacity: 1.0;
+  filter:aplha(opacity=100);
+}
+
+.navigation {
+    background-color: red;
+    height: 50px;
+    width: auto;
+}
